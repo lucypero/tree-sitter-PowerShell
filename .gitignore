@@ -2,7 +2,3 @@ node_modules
 *.swp
 build
 
-# see https://stackoverflow.com/a/5534865
-!src/
-src/*
-!src/scanner.c

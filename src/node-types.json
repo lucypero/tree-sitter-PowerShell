@@ -1,0 +1,1273 @@
+[
+  {
+    "type": "array_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignment_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "class_method",
+          "named": true
+        },
+        {
+          "type": "class_property",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_method",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bareword_string",
+          "named": true
+        },
+        {
+          "type": "class_method_body",
+          "named": true
+        },
+        {
+          "type": "class_parameter",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_method_body",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_parameter",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "simple_variable",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_property",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "simple_variable",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "command_argument",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "bareword_string",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "splatted_variable",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "command_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bareword_string",
+          "named": true
+        },
+        {
+          "type": "command_argument",
+          "named": true
+        },
+        {
+          "type": "command_parameter",
+          "named": true
+        },
+        {
+          "type": "property_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "do_while_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "double_quote_string",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "else_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "elseif_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enum_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bareword_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "filter_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "scriptblock",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "flat_array_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "array_expression",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "scriptblock",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hashtable_entry",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array_expression",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "property_name",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hashtable_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "hashtable_entry",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "if_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "else_statement",
+          "named": true
+        },
+        {
+          "type": "elseif_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "non_type_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "param_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "param_block_variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "param_block_variable",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "simple_variable",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "pipeline_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array_expression",
+          "named": true
+        },
+        {
+          "type": "command_expression",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "param_block",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "property_name",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "bareword_string",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "scriptblock",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "param_block",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "single_quote_string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "subexpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subpipeline",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array_expression",
+          "named": true
+        },
+        {
+          "type": "command_expression",
+          "named": true
+        },
+        {
+          "type": "double_quote_string",
+          "named": true
+        },
+        {
+          "type": "flat_array_expression",
+          "named": true
+        },
+        {
+          "type": "hashtable_expression",
+          "named": true
+        },
+        {
+          "type": "non_type_attribute",
+          "named": true
+        },
+        {
+          "type": "number_expr",
+          "named": true
+        },
+        {
+          "type": "scriptblock",
+          "named": true
+        },
+        {
+          "type": "single_quote_string",
+          "named": true
+        },
+        {
+          "type": "subexpression",
+          "named": true
+        },
+        {
+          "type": "subpipeline",
+          "named": true
+        },
+        {
+          "type": "type_expr",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type_expr",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "variable",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "simple_variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "while_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assignment_statement",
+          "named": true
+        },
+        {
+          "type": "class_definition",
+          "named": true
+        },
+        {
+          "type": "do_while_statement",
+          "named": true
+        },
+        {
+          "type": "enum_definition",
+          "named": true
+        },
+        {
+          "type": "filter_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "pipeline_statement",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "$",
+    "named": false
+  },
+  {
+    "type": "$$",
+    "named": false
+  },
+  {
+    "type": "$(",
+    "named": false
+  },
+  {
+    "type": "$?",
+    "named": false
+  },
+  {
+    "type": "$^",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "@(",
+    "named": false
+  },
+  {
+    "type": "@{",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "[]",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "bareword_string",
+    "named": true
+  },
+  {
+    "type": "command_parameter",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "number_expr",
+    "named": true
+  },
+  {
+    "type": "simple_variable",
+    "named": true
+  },
+  {
+    "type": "splatted_variable",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "|",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
